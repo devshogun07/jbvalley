@@ -10,7 +10,7 @@ export default function Hero1() {
         <div
             id="overview"
             className="relative bg-cover bg-center"
-            style={{ backgroundImage: "url(/hero-img.jpg)" }}
+            style={{ backgroundImage: "url(/hero-bg.jpeg)" }}
         >
             <div className="absolute inset-0 bg-[#0D192B]/80" />
 
@@ -19,7 +19,7 @@ export default function Hero1() {
                     JB VALLEY HOMES INFRA LLP · INFRASTRUCTURE &amp; MASTER PLANNING
                 </span>
 
-                <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+                <h1 className="text-5xl font-extrabold leading-tight mb-6">
                     <span className="block text-white">Engineering Discipline.</span>
                     <span className="block text-[#c9a84c]">Master-Planned Infrastructure.</span>
                 </h1>
@@ -29,7 +29,7 @@ export default function Hero1() {
                     township development — nine sanctioned ventures totaling
                     1,869 acres delivered across Telangana and Andhra Pradesh,
                     sanctioned by four development authorities. Now advancing
-                    Konkan Valley, a 2,500+ acre integrated township project.
+                    Konkan Valley, a 3,500+ acre integrated township project.
                 </p>
 
                 <div className="flex gap-4">

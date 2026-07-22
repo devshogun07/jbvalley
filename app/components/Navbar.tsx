@@ -14,15 +14,7 @@ export default function Navbar() {
     <header className="bg-[#0a1628] text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between py-3 px-6">
         <Link href="#overview" className="flex items-center gap-3">
-          <img src="/jblogo.svg" alt="" className="h-12" />
-          <span className="leading-tight hidden sm:block">
-            <span className="block text-sm font-bold tracking-wide">
-              JB VALLEY HOMES INFRA
-            </span>
-            <span className="block text-[10px] tracking-widest text-gray-400">
-              Master Township Developer
-            </span>
-          </span>
+          <img src="/jblogo.png" alt="" className="h-12" />
         </Link>
 
         <div className="flex items-center gap-8">

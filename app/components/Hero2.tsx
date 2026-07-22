@@ -83,9 +83,9 @@ export default function Hero2() {
                 <div className="relative">
                     <div className="absolute inset-0 border border-[#c9a84c]/30 rounded-sm translate-x-4 translate-y-4" />
                     <img
-                        src="/papeshwar-rao-berelli.jpg"
+                        src="/profile2.png"
                         alt="Er. Papeshwar Rao Berelli, Founder & Designated Partner, JB Valley Homes Infra LLP"
-                        className="relative w-full h-125 object-cover rounded-sm"
+                        className="relative w-full h-150 object-cover rounded-sm"
                     />
                     <div className="absolute -bottom-6 -right-6 bg-[#c9a84c] rounded-sm px-8 py-5 text-center">
                         <div className="text-3xl font-extrabold text-[#0D192B]">

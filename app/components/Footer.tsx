@@ -25,17 +25,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
                 <div>
                     <Link href="#overview" className="flex items-center gap-3 mb-6">
-                        <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#c9a84c] text-[#c9a84c] font-semibold">
-                            J
-                        </span>
-                        <span className="leading-tight">
-                            <span className="block text-lg font-bold tracking-wide text-white">
-                                JB VALLEY HOMES INFRA
-                            </span>
-                            <span className="block text-[10px] tracking-[0.2em] text-[#c9a84c]">
-                                MASTER TOWNSHIP DEVELOPER
-                            </span>
-                        </span>
+                        <img src="/jblogo.png" alt="" className="h-15" />
                     </Link>
 
                     <p className="text-gray-400 text-sm">
