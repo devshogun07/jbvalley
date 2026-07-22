@@ -1,23 +1,23 @@
 const STEPS = [
     {
         number: "01",
-        title: "Site Visit & Consultation",
-        desc: "We walk you through the property, master plan, and investment thesis.",
+        title: "Land Assembly & Tenure",
+        desc: "Multi-parcel acquisition, boundary consolidation, and the instrument that evidences control of every parcel.",
     },
     {
         number: "02",
-        title: "Documentation & Legal Review",
-        desc: "Our team handles all due diligence — title verification, RERA registration, and agreements.",
+        title: "Statutory Sanction",
+        desc: "Land-use declaration, environmental clearance, FSI sanction, and RERA registration before any marketing begins.",
     },
     {
         number: "03",
-        title: "Flexible Payment Plans",
-        desc: "Structured payment options with construction-linked milestones to suit your cash flow.",
+        title: "Phased Construction",
+        desc: "Ten phases delivered in sequence, each with its own approvals, contractor package and completion record.",
     },
     {
         number: "04",
-        title: "Handover & Beyond",
-        desc: "Smooth possession with ongoing property management and community support.",
+        title: "Handover & Operation",
+        desc: "Possession against completion certificates, followed by facility management of the operating asset.",
     },
 ];
 
@@ -28,14 +28,19 @@ export default function Hero6() {
                 <div className="flex items-center justify-center gap-4 mb-6">
                     <span className="w-10 h-px bg-[#c9a84c]" />
                     <span className="text-[#c9a84c] text-xs tracking-[0.2em] font-semibold">
-                        OUR PROCESS
+                        DEVELOPMENT SEQUENCE
                     </span>
                     <span className="w-10 h-px bg-[#c9a84c]" />
                 </div>
 
-                <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-20">
-                    Simple Steps. Strong Partnership.
+                <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-6">
+                    The Order the Work Is Done In
                 </h2>
+                <p className="text-gray-400 text-center max-w-2xl mx-auto mb-20">
+                    No stage begins before the one before it is documented.
+                    This is the sequence carried over from four decades of
+                    public and private works.
+                </p>
 
                 <div className="grid md:grid-cols-4 gap-8">
                     {STEPS.map((step, i) => (

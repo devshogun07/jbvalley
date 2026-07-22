@@ -1,13 +1,14 @@
 const STATS = [
-    { value: "20%+", label: "AVERAGE ANNUAL RETURNS" },
-    { value: "2.1B", label: "ASSETS UNDER MANAGEMENT" },
-    { value: "100%", label: "PROJECT COMPLETION RATE" },
-    { value: "15+", label: "YEARS OF EXCELLENCE" },
+    { value: "41", label: "YEARS ENGINEERING PRACTICE" },
+    { value: "9", label: "SANCTIONED VENTURES DELIVERED" },
+    { value: "1,869", label: "ACRES DEVELOPED & SANCTIONED" },
+    { value: "4", label: "STATUTORY DEVELOPMENT AUTHORITIES" },
 ];
 
 export default function Hero1() {
     return (
         <div
+            id="overview"
             className="relative bg-cover bg-center"
             style={{ backgroundImage: "url(/hero-img.jpg)" }}
         >
@@ -15,27 +16,35 @@ export default function Hero1() {
 
             <div className="relative px-6 pt-32 pb-40 max-w-3xl mx-auto md:mx-0 md:pl-24">
                 <span className="inline-block border border-[#c9a84c] rounded-sm text-[#c9a84c] bg-[#c9a84c]/10 text-xs tracking-[0.2em] px-4 py-2 mb-6">
-                    • PREMIER REAL ESTATE DEVELOPMENT
+                    JB VALLEY HOMES INFRA LLP · INFRASTRUCTURE &amp; MASTER PLANNING
                 </span>
 
                 <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-                    <span className="block text-white">Modern Living</span>
-                    <span className="block text-[#c9a84c]">Starts Here.</span>
+                    <span className="block text-white">Engineering Discipline.</span>
+                    <span className="block text-[#c9a84c]">Master-Planned Infrastructure.</span>
                 </h1>
 
                 <p className="text-gray-300 text-lg mb-8 max-w-xl">
-                    Discover premium new residential communities designed for
-                    contemporary living. Partner with us to develop truly
-                    spectacular properties.
+                    Forty-one years across public civil engineering and private
+                    township development — nine sanctioned ventures totaling
+                    1,869 acres delivered across Telangana and Andhra Pradesh,
+                    sanctioned by four development authorities. Now advancing
+                    Konkan Valley, a 2,500+ acre integrated township project.
                 </p>
 
                 <div className="flex gap-4">
-                    <button className="bg-[#c9a84c] hover:bg-[#d9b45f] text-[#0D192B] rounded-sm font-semibold px-8 py-4 text-sm tracking-wide">
-                        VIEW PROPERTIES
-                    </button>
-                    <button className="border border-gray-400 text-white rounded-sm font-semibold px-8 py-4 text-sm tracking-wide">
-                        REQUEST INFO
-                    </button>
+                    <a
+                        href="#ventures"
+                        className="bg-[#c9a84c] hover:bg-[#d9b45f] text-[#0D192B] rounded-sm font-semibold px-8 py-4 text-sm tracking-wide"
+                    >
+                        REVIEW TRACK RECORD
+                    </a>
+                    <a
+                        href="#contact"
+                        className="border border-gray-400 text-white rounded-sm font-semibold px-8 py-4 text-sm tracking-wide"
+                    >
+                        GOVERNANCE &amp; APPROVALS LEDGER →
+                    </a>
                 </div>
             </div>
 

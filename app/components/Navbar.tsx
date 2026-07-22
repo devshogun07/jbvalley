@@ -1,19 +1,28 @@
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/properties", label: "Properties" },
-  { href: "/about", label: "About Us" },
-  { href: "/news", label: "News" },
-  { href: "/contact", label: "Contact" },
+  { href: "#overview", label: "Overview" },
+  { href: "#ventures", label: "Track Record" },
+  { href: "#engineering", label: "Engineering" },
+  { href: "#leadership", label: "Leadership" },
+  { href: "#contact", label: "Konkan Valley" },
+  { href: "#contact", label: "Governance" },
 ];
 
 export default function Navbar() {
   return (
     <header className="bg-[#0a1628] text-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between py-3">
-        <Link href="/" className="flex items-center gap-3">
-          <img src="/jblogo.png" alt="" className="h-12" />
+      <nav className="mx-auto flex max-w-7xl items-center justify-between py-3 px-6">
+        <Link href="#overview" className="flex items-center gap-3">
+          <img src="/jblogo.svg" alt="" className="h-12" />
+          <span className="leading-tight hidden sm:block">
+            <span className="block text-sm font-bold tracking-wide">
+              JB VALLEY HOMES INFRA
+            </span>
+            <span className="block text-[10px] tracking-widest text-gray-400">
+              Master Township Developer
+            </span>
+          </span>
         </Link>
 
         <div className="flex items-center gap-8">
@@ -27,10 +36,10 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="#contact"
             className="rounded bg-[#c9a84c] px-5 py-2 text-sm font-semibold text-[#0a1628] hover:bg-[#d9b45f]"
           >
-            CONTACT SALES
+            INSTITUTIONAL ENQUIRY
           </Link>
         </div>
       </nav>

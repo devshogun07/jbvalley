@@ -1,18 +1,21 @@
 import Link from "next/link";
-import { Play } from "lucide-react";
 
 const COLUMNS = [
     {
-        title: "ABOUT US",
-        links: ["Our Story", "Leadership Team", "Awards & Recognition", "Careers", "Press Room"],
+        title: "PROFILE",
+        links: [
+            { label: "Leadership", href: "#leadership" },
+            { label: "Engineering framework", href: "#engineering" },
+            { label: "Track record", href: "#ventures" },
+        ],
     },
     {
-        title: "PROJECT TYPES",
-        links: ["Luxury Residences", "Urban Living", "Waterfront Homes", "Commercial Spaces", "Plotted Development"],
-    },
-    {
-        title: "INVESTOR INFO",
-        links: ["Investment Models", "RERA Compliance", "Financial Reports", "FAQs", "Brochure Downloads"],
+        title: "KONKAN VALLEY",
+        links: [
+            { label: "Flagship proposal", href: "#contact" },
+            { label: "Approvals & status", href: "#contact" },
+            { label: "Institutional enquiry", href: "#contact" },
+        ],
     },
 ];
 
@@ -21,52 +24,25 @@ export default function Footer() {
         <footer className="bg-[#060F1E] px-6 pt-20 pb-8 border-t border-white/10">
             <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
                 <div>
-                    <Link href="/" className="flex items-center gap-3 mb-6">
+                    <Link href="#overview" className="flex items-center gap-3 mb-6">
                         <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#c9a84c] text-[#c9a84c] font-semibold">
                             J
                         </span>
                         <span className="leading-tight">
                             <span className="block text-lg font-bold tracking-wide text-white">
-                                JBVALLEY
+                                JB VALLEY HOMES INFRA
                             </span>
                             <span className="block text-[10px] tracking-[0.2em] text-[#c9a84c]">
-                                REAL ESTATE
+                                MASTER TOWNSHIP DEVELOPER
                             </span>
                         </span>
                     </Link>
 
-                    <p className="text-gray-400 text-sm mb-6">
-                        Building vibrant communities that stand as benchmarks of
-                        quality, design, and trust across every Indian city we
-                        enter.
+                    <p className="text-gray-400 text-sm">
+                        Forty-one years across public civil infrastructure and
+                        private township development. Founder and designated
+                        partner, JB Valley Homes Infra LLP.
                     </p>
-
-                    <div className="flex gap-3">
-                        <a
-                            href="#"
-                            className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white text-xs font-bold hover:border-[#c9a84c] hover:text-[#c9a84c]"
-                        >
-                            X
-                        </a>
-                        <a
-                            href="#"
-                            className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-[#c9a84c] text-xs font-bold hover:border-[#c9a84c]"
-                        >
-                            in
-                        </a>
-                        <a
-                            href="#"
-                            className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white text-sm font-bold hover:border-[#c9a84c] hover:text-[#c9a84c]"
-                        >
-                            f
-                        </a>
-                        <a
-                            href="#"
-                            className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-[#c9a84c] hover:border-[#c9a84c]"
-                        >
-                            <Play className="w-4 h-4" />
-                        </a>
-                    </div>
                 </div>
 
                 {COLUMNS.map((col) => (
@@ -76,35 +52,75 @@ export default function Footer() {
                         </h3>
                         <ul className="space-y-4">
                             {col.links.map((link) => (
-                                <li key={link}>
+                                <li key={link.label}>
                                     <a
-                                        href="#"
+                                        href={link.href}
                                         className="text-gray-400 text-sm hover:text-white"
                                     >
-                                        {link}
+                                        {link.label}
                                     </a>
                                 </li>
                             ))}
                         </ul>
                     </div>
                 ))}
+
+                <div>
+                    <h3 className="text-white text-sm font-bold tracking-wide mb-6">
+                        CONTACT
+                    </h3>
+                    <ul className="space-y-4 text-sm">
+                        <li>
+                            <a
+                                href="mailto:jbhomesinfra@gmail.com"
+                                className="text-gray-400 hover:text-white"
+                            >
+                                jbhomesinfra@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="tel:+916309601850"
+                                className="text-gray-400 hover:text-white"
+                            >
+                                +91 63096 01850
+                            </a>
+                        </li>
+                        <li className="text-gray-400">Hyderabad, Telangana</li>
+                    </ul>
+                </div>
             </div>
 
-            <div className="max-w-7xl mx-auto border-t border-white/10 mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-                <p className="text-gray-500 text-sm">
-                    © 2026 JBvalley Real Estate Pvt. Ltd. All rights reserved. RERA
-                    Registered.
+            <div className="max-w-7xl mx-auto border-t border-white/10 mt-16 pt-8">
+                <p className="text-gray-500 text-xs leading-relaxed mb-6">
+                    Konkan Valley is not registered under the Real Estate
+                    (Regulation and Development) Act, 2016. Nothing on this
+                    website is an offer, invitation or solicitation to
+                    purchase any plot, apartment or building, and no booking
+                    amount or payment is accepted. All visuals are artistic
+                    impressions of a proposed development and do not depict
+                    constructed or sanctioned works. Areas, phasing,
+                    investment and programme figures are indicative and
+                    remain subject to statutory approval.
                 </p>
-                <div className="flex gap-6">
-                    <a href="#" className="text-gray-500 text-sm hover:text-white">
-                        Privacy Policy
-                    </a>
-                    <a href="#" className="text-gray-500 text-sm hover:text-white">
-                        Terms of Use
-                    </a>
-                    <a href="#" className="text-gray-500 text-sm hover:text-white">
-                        Cookie Policy
-                    </a>
+                <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p className="text-gray-500 text-sm">
+                        © 2026 JB Valley Homes Infra LLP. All rights reserved.
+                    </p>
+                    <div className="flex gap-6">
+                        <a
+                            href="#contact"
+                            className="text-gray-500 text-sm hover:text-white"
+                        >
+                            Approvals & Status
+                        </a>
+                        <a
+                            href="#contact"
+                            className="text-gray-500 text-sm hover:text-white"
+                        >
+                            Contact
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
