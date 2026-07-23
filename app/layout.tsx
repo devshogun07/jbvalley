@@ -8,10 +8,16 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "JB Konkan Valley",
+  title: "JB Valley Homes Infra LLP — Master Township & Infrastructure Developer",
   description:
-    "Er. Papeshwar Rao Berelli — 41 years across public civil infrastructure and private township development. Nine sanctioned ventures across Telangana and Andhra Pradesh. Founder & Designated Partner, JB Valley Homes Infra LLP.",
-  icons: ["/jblogo.svg"],
+    "JB Valley Homes Infra LLP — Institutional township developer executing master-planned infrastructure, large-scale land assembly, and the flagship 3,500+ acre Konkan Valley project.",
+  icons: ["/jblogo-redesign.svg"],
+  openGraph: {
+    title: "JB Valley Homes Infra LLP — Master Township & Infrastructure Developer",
+    description:
+      "Institutional township developer executing master-planned infrastructure and large-scale land assembly.",
+    images: ["/master-vision.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -20,11 +26,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${montserrat.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${montserrat.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col bg-[#0D192B] text-white">
+        {children}
+      </body>
     </html>
   );
 }
