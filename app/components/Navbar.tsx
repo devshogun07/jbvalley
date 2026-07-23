@@ -5,11 +5,11 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const NAV_LINKS = [
-  { href: "#contact", label: "Overview" },
-  { href: "#contact", label: "Track Record" },
-  { href: "#contact", label: "Engineering" },
-  { href: "#contact", label: "Leadership" },
-  { href: "#contact", label: "Konkan Valley" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/ventures", label: "Ventures" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/contact", label: "Contact Us" },
 ];
 
 export default function Navbar() {
@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="bg-[#0a1628] text-white relative">
       <nav className="mx-auto flex max-w-7xl items-center justify-between py-3 px-6">
-        <Link href="#contact" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <img src="/jblogo.png" alt="" className="h-10 md:h-12" />
         </Link>
 
@@ -33,7 +33,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="#contact"
+            href="/contact"
             className="rounded bg-[#c9a84c] px-5 py-2 text-sm font-semibold text-[#0a1628] hover:bg-[#d9b45f]"
           >
             INSTITUTIONAL ENQUIRY
@@ -64,7 +64,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="#contact"
+            href="/contact"
             onClick={() => setOpen(false)}
             className="mt-4 text-center rounded bg-[#c9a84c] px-5 py-3 text-sm font-semibold text-[#0a1628] hover:bg-[#d9b45f]"
           >
