@@ -6,7 +6,6 @@ const NAV_LINKS = [
   { href: "#engineering", label: "Engineering" },
   { href: "#leadership", label: "Leadership" },
   { href: "#contact", label: "Konkan Valley" },
-  { href: "#contact", label: "Governance" },
 ];
 
 export default function Navbar() {

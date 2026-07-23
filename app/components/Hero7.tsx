@@ -78,7 +78,7 @@ export default function Hero7() {
                     </div>
                 </div>
 
-                <form className="bg-[#111f38] rounded-sm p-8">
+                <form className="bg-[#111f38] rounded-xl p-8 border-[0.5px] border-gray-700">
                     <h3 className="text-white font-bold text-xl mb-6">
                         Dossier Request
                     </h3>

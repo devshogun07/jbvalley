@@ -12,7 +12,7 @@ export default function Hero1() {
             className="relative bg-cover bg-center"
             style={{ backgroundImage: "url(/hero-bg.jpeg)" }}
         >
-            <div className="absolute inset-0 bg-[#0D192B]/80" />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#0D192B]/95 via-[#0D192B]/70 to-[#0D192B]/95" />
 
             <div className="relative px-6 pt-32 pb-40 max-w-3xl mx-auto md:mx-0 md:pl-24">
                 <span className="inline-block border border-[#c9a84c] rounded-sm text-[#c9a84c] bg-[#c9a84c]/10 text-xs tracking-[0.2em] px-4 py-2 mb-6">
@@ -48,7 +48,7 @@ export default function Hero1() {
                 </div>
             </div>
 
-            <div className="relative bg-[#c9a84c]/10 border-t border-[#c9a84c]/50">
+            <div className="relative bg-[#c9a84c]/20 border-t border-[#c9a84c]/50">
                 <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 divide-x divide-[#c9a84c]/50">
                     {STATS.map((stat) => (
                         <div key={stat.label} className="text-center py-8 px-4">

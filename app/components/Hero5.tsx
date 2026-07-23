@@ -1,5 +1,5 @@
 const STATS = [
-    { value: "2,500+", label: "ACRES PROPOSED" },
+    { value: "3,500+", label: "ACRES PROPOSED" },
     { value: "275 Mn", label: "SQ.FT. PROPOSED" },
     { value: "10", label: "PHASES" },
     { value: "10 Yrs", label: "DEVELOPMENT HORIZON" },
