@@ -25,8 +25,8 @@ const FEATURES = [
 
 export default function Hero2() {
     return (
-        <div id="leadership" className="bg-[#0b1628] px-6 py-24">
-            <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <div id="leadership" className="bg-[#0b1628] px-6 py-16 md:py-24">
+            <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 items-center">
                 <div>
                     <div className="flex items-center gap-3 mb-4">
                         <span className="w-8 h-px bg-[#c9a84c]" />
@@ -35,11 +35,11 @@ export default function Hero2() {
                         </span>
                     </div>
 
-                    <h2 className="text-4xl md:text-4xl font-extrabold text-white leading-tight mb-6">
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-white leading-tight mb-6">
                         Four Decades of Engineering Leadership
                     </h2>
 
-                    <p className="text-gray-400 text-lg mb-4">
+                    <p className="text-gray-400 text-base md:text-lg mb-4">
                         Er. Papeshwar Rao Berelli began his career in government
                         service, spending sixteen years as an Assistant Executive
                         Engineer with the Andhra Pradesh Panchayat Raj Department,
@@ -47,7 +47,7 @@ export default function Hero2() {
                         infrastructure across district administrations.
                     </p>
 
-                    <p className="text-gray-400 text-lg mb-8">
+                    <p className="text-gray-400 text-base md:text-lg mb-8">
                         Over the twenty-five years since, he has conceptualised,
                         acquired, and executed nine private township
                         developments — concentrating on multi-parcel land
@@ -85,9 +85,9 @@ export default function Hero2() {
                     <img
                         src="/profile2.png"
                         alt="Er. Papeshwar Rao Berelli, Founder & Designated Partner, JB Valley Homes Infra LLP"
-                        className="relative w-full h-150 object-cover rounded-sm"
+                        className="relative w-full h-80 md:h-150 object-cover rounded-sm"
                     />
-                    <div className="absolute -bottom-6 -right-6 bg-[#c9a84c] rounded-sm px-8 py-5 text-center">
+                    <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-[#c9a84c] rounded-sm px-6 py-4 md:px-8 md:py-5 text-center">
                         <div className="text-3xl font-extrabold text-[#0D192B]">
                             41
                         </div>

@@ -14,17 +14,17 @@ export default function Hero1() {
         >
             <div className="absolute inset-0 bg-gradient-to-b from-[#0D192B]/95 via-[#0D192B]/70 to-[#0D192B]/95" />
 
-            <div className="relative px-6 pt-32 pb-40 max-w-3xl mx-auto md:mx-0 md:pl-24">
+            <div className="relative px-6 pt-24 pb-24 md:pt-32 md:pb-40 max-w-3xl mx-auto md:mx-0 md:pl-24">
                 <span className="inline-block border border-[#c9a84c] rounded-sm text-[#c9a84c] bg-[#c9a84c]/10 text-xs tracking-[0.2em] px-4 py-2 mb-6">
                     JB VALLEY HOMES INFRA LLP · INFRASTRUCTURE &amp; MASTER PLANNING
                 </span>
 
-                <h1 className="text-5xl font-extrabold leading-tight mb-6">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-6">
                     <span className="block text-white">Engineering Discipline.</span>
                     <span className="block text-[#c9a84c]">Master-Planned Infrastructure.</span>
                 </h1>
 
-                <p className="text-gray-300 text-lg mb-8 max-w-xl">
+                <p className="text-gray-300 text-base md:text-lg mb-8 max-w-xl">
                     Forty-one years across public civil engineering and private
                     township development — nine sanctioned ventures totaling
                     1,869 acres delivered across Telangana and Andhra Pradesh,
@@ -32,16 +32,16 @@ export default function Hero1() {
                     Konkan Valley, a 3,500+ acre integrated township project.
                 </p>
 
-                <div className="flex gap-4">
+                <div className="flex flex-col sm:flex-row gap-4">
                     <a
                         href="#ventures"
-                        className="bg-[#c9a84c] hover:bg-[#d9b45f] text-[#0D192B] rounded-sm font-semibold px-8 py-4 text-sm tracking-wide"
+                        className="bg-[#c9a84c] hover:bg-[#d9b45f] text-[#0D192B] rounded-sm font-semibold px-8 py-4 text-sm tracking-wide text-center"
                     >
                         REVIEW TRACK RECORD
                     </a>
                     <a
                         href="#contact"
-                        className="border border-gray-400 text-white rounded-sm font-semibold px-8 py-4 text-sm tracking-wide"
+                        className="border border-gray-400 text-white rounded-sm font-semibold px-8 py-4 text-sm tracking-wide text-center"
                     >
                         GOVERNANCE &amp; APPROVALS LEDGER →
                     </a>
@@ -49,10 +49,10 @@ export default function Hero1() {
             </div>
 
             <div className="relative bg-[#c9a84c]/20 border-t border-[#c9a84c]/50">
-                <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 divide-x divide-[#c9a84c]/50">
+                <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-[#c9a84c]/50">
                     {STATS.map((stat) => (
                         <div key={stat.label} className="text-center py-8 px-4">
-                            <div className="text-3xl font-extrabold text-[#c9a84c] mb-1">
+                            <div className="text-2xl md:text-3xl font-extrabold text-[#c9a84c] mb-1">
                                 {stat.value}
                             </div>
                             <div className="text-[11px] tracking-widest text-gray-400">

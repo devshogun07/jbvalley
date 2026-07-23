@@ -12,7 +12,7 @@ const COLUMNS = [
     {
         title: "KONKAN VALLEY",
         links: [
-            { label: "Flagship proposal", href: "#contact" },
+            { label: "Flagship proposal", href: "#konkan" },
             { label: "Approvals & status", href: "#contact" },
             { label: "Institutional enquiry", href: "#contact" },
         ],
@@ -21,8 +21,8 @@ const COLUMNS = [
 
 export default function Footer() {
     return (
-        <footer className="bg-[#060F1E] px-6 pt-20 pb-8 border-t border-white/10">
-            <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
+        <footer className="bg-[#060F1E] px-6 pt-16 md:pt-20 pb-8 border-t border-white/10">
+            <div className="max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12">
                 <div>
                     <Link href="#overview" className="flex items-center gap-3 mb-6">
                         <img src="/jblogo.png" alt="" className="h-15" />

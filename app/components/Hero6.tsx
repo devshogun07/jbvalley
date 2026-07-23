@@ -23,20 +23,20 @@ const STEPS = [
 
 export default function Hero6() {
     return (
-        <div className="bg-[#0D192B] px-6 py-24">
+        <div className="bg-[#0D192B] px-6 py-16 md:py-24">
             <div className="max-w-6xl mx-auto">
                 <div className="flex items-center justify-center gap-4 mb-6">
                     <span className="w-10 h-px bg-[#c9a84c]" />
-                    <span className="text-[#c9a84c] text-xs tracking-[0.2em] font-semibold">
+                    <span className="text-[#c9a84c] text-xs tracking-[0.2em] font-semibold text-center">
                         DEVELOPMENT SEQUENCE
                     </span>
                     <span className="w-10 h-px bg-[#c9a84c]" />
                 </div>
 
-                <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-6">
+                <h2 className="text-3xl md:text-5xl font-extrabold text-white text-center mb-6">
                     The Order the Work Is Done In
                 </h2>
-                <p className="text-gray-400 text-center max-w-2xl mx-auto mb-20">
+                <p className="text-gray-400 text-center max-w-2xl mx-auto mb-12 md:mb-20">
                     No stage begins before the one before it is documented.
                     This is the sequence carried over from four decades of
                     public and private works.

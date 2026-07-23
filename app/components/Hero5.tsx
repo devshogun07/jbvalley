@@ -8,7 +8,7 @@ const STATS = [
 
 export default function Hero5() {
     return (
-        <div className="bg-[#c9a84c] py-16 px-6">
+        <div className="bg-[#c9a84c] py-12 md:py-16 px-6">
             <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-y-8 text-center">
                 {STATS.map((stat) => (
                     <div key={stat.label}>

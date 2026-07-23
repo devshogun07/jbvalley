@@ -77,7 +77,7 @@ const VENTURES = [
 
 export default function Hero3() {
     return (
-        <div id="ventures" className="bg-[#0D192B] px-6 py-24">
+        <div id="ventures" className="bg-[#0D192B] px-6 py-16 md:py-24">
             <div className="max-w-7xl mx-auto">
                 <div className="flex items-end justify-between mb-12 flex-wrap gap-6">
                     <div>
@@ -87,7 +87,7 @@ export default function Hero3() {
                                 TRACK RECORD
                             </span>
                         </div>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-white">
+                        <h2 className="text-3xl md:text-5xl font-extrabold text-white">
                             Nine Sanctioned Ventures
                         </h2>
                     </div>

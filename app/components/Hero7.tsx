@@ -7,7 +7,7 @@ export default function Hero7() {
         >
             <div className="absolute inset-0 bg-[#0D192B]/85" />
 
-            <div className="relative max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 items-start">
+            <div className="relative max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 md:gap-16 items-start">
                 <div>
                     <div className="flex items-center gap-3 mb-6">
                         <span className="w-10 h-px bg-[#c9a84c]" />
@@ -16,11 +16,11 @@ export default function Hero7() {
                         </span>
                     </div>
 
-                    <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6">
+                    <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight mb-6">
                         Request the Investor Dossier
                     </h2>
 
-                    <p className="text-gray-300 text-lg max-w-md mb-10">
+                    <p className="text-gray-300 text-base md:text-lg max-w-md mb-10">
                         Shared under non-disclosure with institutional and
                         private investors, land partners and co-developers.
                         This is not a sales enquiry channel and no units are

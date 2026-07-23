@@ -35,17 +35,17 @@ const FEATURES = [
 
 export default function Hero4() {
     return (
-        <div id="engineering" className="bg-[#0D192B] px-6 py-24">
+        <div id="engineering" className="bg-[#0D192B] px-6 py-16 md:py-24">
             <div className="max-w-7xl mx-auto">
                 <div className="flex items-center justify-center gap-4 mb-6">
                     <span className="w-10 h-px bg-[#c9a84c]" />
-                    <span className="text-[#c9a84c] text-xs tracking-[0.2em] font-semibold">
+                    <span className="text-[#c9a84c] text-xs tracking-[0.2em] font-semibold text-center">
                         EXECUTION RIGOR
                     </span>
                     <span className="w-10 h-px bg-[#c9a84c]" />
                 </div>
 
-                <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center leading-tight mb-6">
+                <h2 className="text-3xl md:text-5xl font-extrabold text-white text-center leading-tight mb-6">
                     Evidence-Based Governance &amp; Performance
                 </h2>
                 <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
