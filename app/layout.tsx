@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "JB Valley Homes Infra LLP — Master Township & Infrastructure Developer",
+  title: "JB Konkan Valley",
   description:
     "Er. Papeshwar Rao Berelli — 41 years across public civil infrastructure and private township development. Nine sanctioned ventures across Telangana and Andhra Pradesh. Founder & Designated Partner, JB Valley Homes Infra LLP.",
   icons: ["/jblogo.svg"],
