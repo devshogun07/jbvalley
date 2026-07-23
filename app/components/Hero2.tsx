@@ -57,7 +57,7 @@ export default function Hero2() {
                     </p>
 
                     <a
-                        href="contact"
+                        href="#contact"
                         className="inline-block bg-[#c9a84c] hover:bg-[#d9b45f] text-[#0D192B] rounded-sm font-semibold px-8 py-4 text-sm tracking-wide mb-12"
                     >
                         INSTITUTIONAL ENQUIRY

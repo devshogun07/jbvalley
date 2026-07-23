@@ -4,17 +4,17 @@ const COLUMNS = [
     {
         title: "PROFILE",
         links: [
-            { label: "Leadership", href: "leadership" },
-            { label: "Engineering framework", href: "engineering" },
-            { label: "Track record", href: "ventures" },
+            { label: "Leadership", href: "#contact" },
+            { label: "Engineering framework", href: "#contact" },
+            { label: "Track record", href: "#contact" },
         ],
     },
     {
         title: "KONKAN VALLEY",
         links: [
-            { label: "Flagship proposal", href: "konkan" },
-            { label: "Approvals & status", href: "contact" },
-            { label: "Institutional enquiry", href: "contact" },
+            { label: "Flagship proposal", href: "#contact" },
+            { label: "Approvals & status", href: "#contact" },
+            { label: "Institutional enquiry", href: "#contact" },
         ],
     },
 ];
@@ -24,7 +24,7 @@ export default function Footer() {
         <footer className="bg-[#060F1E] px-6 pt-16 md:pt-20 pb-8 border-t border-white/10">
             <div className="max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12">
                 <div>
-                    <Link href="overview" className="flex items-center gap-3 mb-6">
+                    <Link href="#contact" className="flex items-center gap-3 mb-6">
                         <img src="/jblogo.png" alt="" className="h-15" />
                     </Link>
 
@@ -99,13 +99,13 @@ export default function Footer() {
                     </p>
                     <div className="flex gap-6">
                         <a
-                            href="contact"
+                            href="#contact"
                             className="text-gray-500 text-sm hover:text-white"
                         >
                             Approvals & Status
                         </a>
                         <a
-                            href="contact"
+                            href="#contact"
                             className="text-gray-500 text-sm hover:text-white"
                         >
                             Contact
