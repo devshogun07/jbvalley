@@ -34,13 +34,13 @@ export default function Hero1() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                     <a
-                        href="#ventures"
+                        href="ventures"
                         className="bg-[#c9a84c] hover:bg-[#d9b45f] text-[#0D192B] rounded-sm font-semibold px-8 py-4 text-sm tracking-wide text-center"
                     >
                         REVIEW TRACK RECORD
                     </a>
                     <a
-                        href="#contact"
+                        href="contact"
                         className="border border-gray-400 text-white rounded-sm font-semibold px-8 py-4 text-sm tracking-wide text-center"
                     >
                         GOVERNANCE &amp; APPROVALS LEDGER →

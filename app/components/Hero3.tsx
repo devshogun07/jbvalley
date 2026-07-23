@@ -93,7 +93,7 @@ export default function Hero3() {
                     </div>
 
                     <a
-                        href="#contact"
+                        href="contact"
                         className="flex items-center gap-2 border border-[#c9a84c]/60 text-[#c9a84c] rounded-sm font-semibold px-6 py-3 text-sm tracking-wide"
                     >
                         REQUEST APPROVAL DOCUMENTS <ArrowRight className="w-4 h-4" />
